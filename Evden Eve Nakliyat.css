@@ -1,0 +1,360 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,600;1,700&family=Roboto:wght@300&display=swap');
+</style>
+body{
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+ padding: 0px;
+margin: 0px;
+}
+*{
+    padding: 0;
+    margin: 0px;
+    border: 0;
+    list-style-type :none;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration : none;
+    
+}
+
+ul.menu{
+    
+    background:#f97220;
+    height: 50px;
+    width: 1365px;
+    float:left;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+}
+#sosyal{
+    float: right;
+    height: 55px;
+    margin: 15px;
+    font-size: 20px;
+    top: 50px;
+   text-align: right;
+}
+#sosyal >i{
+    margin-right: 15px;
+}
+
+#sosyal >i:hover{
+   opacity:0.5;
+
+         
+}
+
+ul.menu > li {
+    float: left;
+   position: relative;
+    
+}
+
+ul.menu > li> a{
+    display:block;
+    font-size: 24px;
+    color: #fff;
+    padding: 0 0;
+    margin-left: 0;
+    line-height: 50px;
+     transition:all .3s ease-in;
+     border-right: 1px solid rgba(0,0,0,1);
+    height:50px;
+width: 190px;
+text-align: center;
+}
+i{
+    margin-right: 10px;
+}
+ul.menu ul{
+    background: #f97220;
+    height: 50px;;
+    width: auto;
+    display: none;
+    top: 30px;
+    left: 0;
+    opacity: 0;
+    transition: 250ms all;
+    visibility: hidden;
+    
+}
+
+ul.menu ul li a{
+    display: block;
+background-color:#f97220;
+color: white;
+height:50px;
+line-height:50px;
+text-decoration:none;
+padding-left:5px;
+font-size: 18px;
+transition: all .3s ease-in;
+}
+
+ul.menu >li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+    display: block;
+    background: #f97220;
+}
+div.sosyal fab fa-google:hover{
+    background: black;
+} 
+
+ul.menu  a:hover{ /* hover mouse üzerine geldiğinde oluşur*/
+	background-color:chartreuse;
+	border-radius: 2px;
+	color: black;
+    opacity: 10;
+}
+div ul.bxslider{
+ padding: 50px auto;
+}
+
+main{
+    margin-top: 423px;
+    margin-left: 17px;
+    margin-bottom: 10px;;
+   
+    float: left;
+    height: auto;
+     padding: auto auto;
+    
+    width: 320px;
+  
+    background: #dcdbdc;
+ border-radius: 10px 10px 10px 10px  ;
+    
+}
+.icerik{
+    padding: 5px;
+    width: 319px;
+    height: 179;
+    display: inline-block;
+    margin-right: 15px;
+   border-radius: 10px;
+    box-shadow: 0 0px 0px 0px rgba(20 23 28.15);
+    margin-bottom: 10px;
+}
+.rsm{
+  
+    width: 100%;
+    border-radius: 10px 10px 10px 10px  ;
+    height: 209px;
+    transition: opacitiy 0.8s;/* resim opasitesini ayarlar*//
+}
+.rsm:hover{
+     opacity: 0.6; /* yukarıdakiye bağlantılı*/
+}
+
+.iceriktext{
+    margin: 10px;
+    color: #4483b4;
+}
+.btndevam{
+    display: block;
+    width: 150px;
+    height: 45px;
+    padding: 10px 20px;
+    background-color:#f97220;
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.btndevam:hover{
+    
+    opacity: 0.8;
+}
+
+.k1{
+    width: 300px;
+    height: 160px;
+   margin-top :5px;
+    margin-left: 40px;
+}
+#belge{
+  
+    margin-left: 110px;
+    margin-right: 110px;
+    font-size: 17px;
+    margin-top: 10px;
+    
+    
+    display: block;
+    width: 165px;
+    height: 45px;
+    padding: 10px 10px 10px 10px;
+    background-color:#f97220;
+    color: white;
+    margin-bottom: 5px;
+   text-align: center;
+    border-radius: 10px;
+ font-size: 17px;
+}
+footer{
+    width: 100%;
+    
+    background: black;
+    color: white;
+    
+    text-align: center;
+  position: fixed   ;
+      left:0;
+    bottom: 0;
+    
+    
+}
+main2{
+    float: left;
+   
+    width: 1300px;
+    height:20px;
+    margin: 3px 20px 0px 20px ;
+}
+h1{
+   
+    text-align: center;
+   
+    color: black;
+    height: 30px;
+   
+   
+  font-size: 45px;
+   
+  margin-left: 200px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+h3{
+    float: left;
+   margin-bottom: 0px;
+    color: #444444;
+    font-size: 30px;
+}
+#hakkimizdaRSM{
+    width: 380px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+  transition: opacity 0.8s;
+    margin: 10px;
+}
+.hakYazı{
+    margin-right: 15px;
+    font-size: 23px;
+    color: #494949;
+    font-family:Cambria;
+    
+    
+}
+#hakkimizdaRSM:hover{
+    opacity: 0.6;
+}
+.m1{
+     width: 400px;
+    margin-right: 10px;
+    height: 510px;
+    transition: opacity 0.8s;
+}
+.m1:hover{
+     opacity: 0.6;
+}
+.m2{
+     width: 400px;
+    height: 510px;
+     margin-right: 10px;
+    transition: opacity 0.8s;
+}
+.m2:hover{
+     opacity: 0.6;
+}
+div.prosedür{
+    width:600px;
+    margin-left:50px;
+    background-color: red;
+}
+.m3{
+     width: 250px;
+    height: 250px;
+     margin-right: 46px;
+    margin-left: 25px;
+    transition: opacity 0.8s;
+}
+.panel{
+ width:100%;
+    
+    height:500px;
+    margin:auto;
+   background:#f97220; 
+ margin-top: 10px;
+    
+     
+}
+.link{
+  
+    width: 25%;
+    height: 450px;
+    background: #f97220;
+    margin-top: -10px;
+   padding-top:  -10px;
+    float: left;
+}
+div.link a {
+    font-size: 15px;
+   
+     color: #dcdbdc;
+}
+div.link a:hover{
+    
+
+     color: chartreuse;
+}
+h2{
+    margin-top: 100px;
+    text-align: center;
+     font-size: 25px;
+    margin-right: 60px;
+}
+	
+.blink{
+      animation: blinkerr 0.9s linear infinite;
+      color: chartreuse;
+      font-size: 15px;
+      font-weight: bold;
+      font-family:monospace;
+     margin-left: 50px;
+}
+.span1{ 
+    
+    font-family:monospace;
+    margin-left:3px;
+     color: #dcdbdc;
+    font-size: 15px;
+    margin-left: 50px;
+}
+.span2{
+   
+    font-family:monospace;
+    margin-right: 18px;
+     color: #dcdbdc;
+     font-size: 15px;
+}
+.span3{
+    float: right;
+    color: #dcdbdc;
+    font-family:monospace;
+     font-size: 15px;
+    margin-right: 100px;
+}
+   
+
+  
